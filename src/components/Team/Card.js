@@ -1,4 +1,10 @@
-import { BsLinkedin, BsInstagram, BsGithub } from "react-icons/bs";
+import {
+  BsLinkedin,
+  BsInstagram,
+  BsGithub,
+  BsMailbox,
+  BsGlobe,
+} from "react-icons/bs";
 export default function Card({ user }) {
   return (
     // <div className="relative w-[500px] h-[250px]">
@@ -11,9 +17,19 @@ export default function Card({ user }) {
         <p className=" text-[1rem] md:text-[1.2rem] text-[#bbb]">
           {user.domain}
         </p>
-        <div className="flex flex-row mt-5 text-2xl gap-x-5">
+        <div className="flex flex-row mt-5 text-xl md:gap-x-4 gap-x-2">
+          {user.email ? (
+            <a
+              className="hover:cursor-pointer hover:text-[#EF6522]"
+              target={"_blank"}
+              href={`mailto:${user.email}`}
+            >
+              <BsMailbox />
+            </a>
+          ) : null}
           {user.linkedin ? (
             <a
+              target={"_blank"}
               className="hover:cursor-pointer hover:text-[#EF6522]"
               href={user.linkedin}
             >
@@ -23,6 +39,7 @@ export default function Card({ user }) {
           {user.github ? (
             <a
               className="hover:cursor-pointer hover:text-[#EF6522]"
+              target={"_blank"}
               href={user.github}
             >
               <BsGithub />
@@ -32,8 +49,19 @@ export default function Card({ user }) {
             <a
               className="hover:cursor-pointer hover:text-[#EF6522]"
               href={user.instagram}
+              target={"_blank"}
             >
               <BsInstagram />
+            </a>
+          ) : null}
+
+          {user.others ? (
+            <a
+              className="hover:cursor-pointer hover:text-[#EF6522]"
+              target={"_blank"}
+              href={user.others}
+            >
+              <BsGlobe />
             </a>
           ) : null}
         </div>

@@ -5,9 +5,9 @@ import Card from "./Card";
 import Section2 from "./Section2";
 export default function Team() {
   return (
-    <div className="min-h-[100vh] ">
+    <div className="min-h-[100vh] overflow-hidden">
       <Navbar />
-      <div className="pt-8 md:pt-16 pb-5">
+      <div className="pt-8 md:pt-16 pb-5 overflow-hidden">
         <Section1 />
       </div>
       <Section2></Section2>
