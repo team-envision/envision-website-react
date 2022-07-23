@@ -1,6 +1,6 @@
 export default function Card({ icon, title, description }) {
   return (
-    <div className="p-6 flex flex-row justify-center align-middle group transition hover:scale-[1.01] hover:shadow-lg hover:cursor-pointer m-2 rounded-xl duration-500">
+    <div className="p-6 flex flex-row justify-center align-middle group transition hover:scale-[1.01] hover:shadow-lg hover:cursor-pointer m-2 rounded-xl duration-500 hover:bg-[#EF652210]">
       <div className="rounded-full md:w-[5vw] md:h-[5vw] w-[15vw] h-[15vw] bg-[#EF6522] flex justify-center align-middle p-2 md:p-4 group-hover:bg-[#f87c3e] transition my-auto">
         <img src={icon} className="md:w-[3vw] w-[8vw]" />
       </div>

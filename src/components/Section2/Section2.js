@@ -6,10 +6,13 @@ import research from "../../assets/images/Section2/research.svg";
 import society from "../../assets/images/Section2/society.svg";
 import project from "../../assets/images/Section2/project.svg";
 import campus from "../../assets/images/Section2/campus.svg";
-
+import desg from "../../assets/images/Section2/abstract-desg.svg";
+import ellipse from "../../assets/images/Section2/ellipse.svg";
 export default function Section2() {
   return (
     <div>
+      <img src={desg} className="max-w-[80vw] mt-10"></img>
+      <img src={ellipse} className="absolute right-0 -z-10 max-w-[30vw]"></img>
       <section>
         {/* <div className="w-[100vw] outline text-[4vw] select-none">About us</div> */}
         <Heading
@@ -43,7 +46,7 @@ export default function Section2() {
           well you got no reason to not to."
           mt="10"
         />
-        <div className="flex flex-row flex-wrap mt-24">
+        <div className="flex flex-row flex-wrap mt-24 px-4">
           <div className="md:basis-1/2 basis-full">
             <Cards
               icon={research}

@@ -5,7 +5,7 @@ export default function Heading({ title, description, background, mt }) {
         className={`font-[futura] text-[#EF6522] inherit text-[6vw] md:text-[2vw] mt-${mt}`}
       >
         {title}
-        <div className="outline text-[8vw] md:text-[4vw] select-none absolute -mt-[14vw] md:-mt-[5vw] -z-10">
+        <div className="outline text-[7vw] md:text-[4vw] select-none absolute -mt-[12vw] md:-mt-[5vw] -z-10 ">
           {background}
         </div>
       </div>
