@@ -3,8 +3,15 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-*{
+* {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Change all select color to orange */
+::selection {
+  color: white;
+  background-color: #EF652250;
 }
 
 body {
@@ -19,4 +26,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
