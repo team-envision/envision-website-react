@@ -2,7 +2,7 @@ import logo from "../../assets/images/envision.svg";
 import Burger from "./burger";
 import Menu from "./menu";
 import React, { useState, useEffect } from "react";
-
+import { Link } from "react-router-dom";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   // const ref = useRef(null);
@@ -36,12 +36,12 @@ export default function Navbar() {
       <div className="md:block hidden">
         <ul className="flex flex-row justify-between gap-x-10 mt-4 font-[roboto]">
           <li className="flex flex-row">
-            <a
-              href="#"
+            <Link
+              to="/"
               className="text-gray-600 hover:text-[#ef6522] transition"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li className="flex flex-row">
             <a
@@ -68,12 +68,12 @@ export default function Navbar() {
             </a>
           </li>
           <li className="flex flex-row">
-            <a
-              href="#"
+            <Link
+              to="/team"
               className="text-gray-600 hover:text-[#ef6522] transition"
             >
               Team
-            </a>
+            </Link>
           </li>
           <li className="flex flex-row">
             <a
