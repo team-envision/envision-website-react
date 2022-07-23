@@ -12,24 +12,30 @@ export default function Card({ user }) {
           {user.domain}
         </p>
         <div className="flex flex-row mt-5 text-2xl gap-x-5">
-          <a
-            className="hover:cursor-pointer hover:text-[#EF6522]"
-            href={user.linkedin}
-          >
-            <BsLinkedin />
-          </a>
-          <a
-            className="hover:cursor-pointer hover:text-[#EF6522]"
-            href={user.github}
-          >
-            <BsGithub />
-          </a>
-          <a
-            className="hover:cursor-pointer hover:text-[#EF6522]"
-            href={user.instagram}
-          >
-            <BsInstagram />
-          </a>
+          {user.linkedin ? (
+            <a
+              className="hover:cursor-pointer hover:text-[#EF6522]"
+              href={user.linkedin}
+            >
+              <BsLinkedin />
+            </a>
+          ) : null}
+          {user.github ? (
+            <a
+              className="hover:cursor-pointer hover:text-[#EF6522]"
+              href={user.github}
+            >
+              <BsGithub />
+            </a>
+          ) : null}
+          {user.instagram ? (
+            <a
+              className="hover:cursor-pointer hover:text-[#EF6522]"
+              href={user.instagram}
+            >
+              <BsInstagram />
+            </a>
+          ) : null}
         </div>
       </div>
       {/* <div className="basis-1/2">
