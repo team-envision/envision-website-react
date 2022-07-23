@@ -9,7 +9,7 @@ export default function Card({ user }) {
   return (
     // <div className="relative w-[500px] h-[250px]">
     // <div>
-    <div className=" w-[300px] md:w-[350px] h-[150px] rounded-3xl p-5 py-7 font-[roboto]  bg-white flex flex-row relative overflow-visible group transition duration-300 hover:shadow-xl lg:hover:scale-[1.02] my-3">
+    <div className=" w-[300px] md:w-[350px] h-[180px] rounded-3xl p-5 py-7 font-[roboto]  bg-white flex flex-row relative overflow-visible group transition duration-300 hover:shadow-xl lg:hover:scale-[1.02] my-3 overflow-x-hidden overflow-y-visible">
       <div className="flex flex-col max-w-[220px] align-middle my-auto">
         <p className=" text-[1.2rem] md:text-[1.5rem] group-hover:text-[#EF6522] transition">
           {user.name}

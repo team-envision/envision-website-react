@@ -177,7 +177,13 @@
     "linkedin": "https://www.linkedin.com/in/ayush-sharma-3b32901b8/",
     "github": "https://github.com/ayushsha1254",
     "instagram": "https://www.instagram.com/ayush12.dng/",
-    "others": "https://www.behance.net/ayushsharma40"
+    "others": "https://www.behance.net/ayushsharma40",
+    "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/test/ayush-fb9bcb5b.webp"
+  },
+  {
+    "name": "Rudransh Singh",
+    "domain": "Designer",
+    "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/test/rudransh-7cac5815.webp"
   },
   {
     "name": "Akkshitha Saravanan ",
@@ -240,7 +246,8 @@
     "linkedin": "Revanth Sinnur ",
     "github": "rsinnur",
     "instagram": "revanth_sinnur",
-    "others": false
+    "others": false,
+    "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/test/revanth-2a1f06e9.webp"
   },
   {
     "name": "Adarsh Jamuaar",
@@ -383,7 +390,8 @@
     "linkedin": "https://www.linkedin.com/in/vinaysonkusale/",
     "github": "https://github.com/Vitagosh",
     "instagram": "https://www.instagram.com/vitagosh/",
-    "others": false
+    "others": false,
+    "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/test/vinay-963c34a0.webp"
   },
   {
     "name": "Udit Gogia",
@@ -455,7 +463,8 @@
     "linkedin": "https://www.linkedin.com/in/sparsh-patel-b23601204",
     "github": "https://github.com/Sparsh-P",
     "instagram": "https://www.instagram.com/spa__rsh/",
-    "others": false
+    "others": false,
+    "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/test/sparsh-41987daa.webp"
   },
   {
     "name": "Abhishek R. Dubey",
@@ -464,7 +473,8 @@
     "linkedin": "https://www.linkedin.com/in/abhishek-dubey-787583222/",
     "github": "https://github.com/Maestgion",
     "instagram": "https://www.instagram.com/_draken_7/",
-    "others": false
+    "others": false,
+    "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/test/abhishek-c22df1c0.webp"
   },
   {
     "name": "Ayush Kumar ",
