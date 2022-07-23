@@ -26,11 +26,11 @@ export default function Section2() {
   console.log(Object.keys(grouped));
   return (
     <div className="p-5 mx-auto ">
-      <div className="flex flex-row justify-center gap-x-4">
+      <div className="flex flex-row justify-center gap-x-4 flex-nowrap overflow-scroll">
         {Object.keys(grouped).map((key) => {
           return (
             <button
-              className={` px-10 py-2 transition text-white rounded ${
+              className={`px-2 py-1 md:px-10 md:py-2 transition text-white rounded ${
                 check(key) ? "bg-orange-500" : "bg-orange-300"
               }`}
               onClick={handle}
