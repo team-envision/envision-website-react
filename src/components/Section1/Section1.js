@@ -50,7 +50,7 @@ export default function Section1() {
       <div onClick={slide}>
         <img
           src={arrow}
-          className="-z-10 absolute md:top-[75vh] md:left-[5vh] sm:scale-100 scale-50 top-[30vh] left-[85vw] hover:animate-bounce cursor-pointer"
+          className="absolute md:top-[75vh] md:left-[5vh] sm:scale-100 scale-50 top-[30vh] left-[85vw] hover:animate-bounce cursor-pointer"
         ></img>
       </div>
     </div>

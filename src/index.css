@@ -3,6 +3,37 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@import url('http://fonts.cdnfonts.com/css/futura-md-bt');
+
+@font-face {
+  font-family: "Future-regular";
+  src: url("./assets/fonts/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Future-Semi";
+  src: url("./assets/fonts/Inter-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Future-Med";
+  src: url("./assets/fonts/Inter-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  src: local('Futura'), url('./assets/fonts/Futura\ Extra\ Bold.otf') format('opentype');
+}
+
+
+@font-face {
+  font-family: 'Futura-reg';
+  font-style: normal;
+  src: local('Futura'), url('./assets/fonts/futura\ medium\ bt.ttf') format('truetype');
+}
+
+
 * {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -30,4 +61,12 @@ code {
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+.outline {
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.368);
+  background-blend-mode: color-dodge;
+  color: transparent;
+  font-family: Futura;
 }
