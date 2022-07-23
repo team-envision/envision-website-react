@@ -39,10 +39,13 @@
   overflow-x: hidden;
 }
 
+html{
+  background-color: #ebe8e8;
+}
 /* Change all select color to orange */
 ::selection {
   color: white;
-  background-color: #EF652250;
+  background-color: #ef6622b4;
 }
 
 body {

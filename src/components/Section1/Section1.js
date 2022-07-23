@@ -27,7 +27,7 @@ export default function Section1() {
           ></img>
           <img
             src={envisionname}
-            className="w-[75vw] lg:w-[55vw] md:mx-0 mx-auto -mt-[5vh] -z-10"
+            className="w-[75vw] lg:w-[55vw] md:mx-0 mx-auto -mt-[5vh] md:mt-[5vh] -z-10"
           ></img>
           <div
             className="bg-no-repeat md:block hidden"
