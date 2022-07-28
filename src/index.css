@@ -23,14 +23,14 @@
 @font-face {
   font-family: 'Futura';
   font-style: normal;
-  src: local('Futura'), url('./assets/fonts/Futura\ Extra\ Bold.otf') format('opentype');
+  src: local('Futura'), url('./assets/fonts/FuturaExtraBold.otf') format('opentype');
 }
 
 
 @font-face {
   font-family: 'Futura-reg';
   font-style: normal;
-  src: local('Futura'), url('./assets/fonts/futura\ medium\ bt.ttf') format('truetype');
+  src: local('Futura'), url('./assets/fonts/futuramediumbt.ttf') format('truetype');
 }
 
 
@@ -39,9 +39,10 @@
   overflow-x: hidden;
 }
 
-html{
+html {
   background-color: #ebe8e8;
 }
+
 /* Change all select color to orange */
 ::selection {
   color: white;
