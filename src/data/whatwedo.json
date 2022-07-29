@@ -5,23 +5,48 @@
         "image" : "aiml.svg"
     },
     {
-        "heading" : "AIML",
+        "heading" : "App Development",
         "description" : "Understand Intelligence to give back to the society",
-        "image" : "aiml.svg"
+        "image" : "appdev.svg"
     },
     {
-        "heading" : "AIML",
+        "heading" : "Full Stack Development",
         "description" : "Understand Intelligence to give back to the society",
-        "image" : "aiml.svg"
+        "image" : "fullstack.svg"
     },
     {
-        "heading" : "AIML",
+        "heading" : "IOT",
         "description" : "Understand Intelligence to give back to the society",
-        "image" : "aiml.svg"
+        "image" : "iot.svg"
     },
     {
-        "heading" : "AIML",
+        "heading" : "ELECTRICAL",
         "description" : "Understand Intelligence to give back to the society",
-        "image" : "aiml.svg"
+        "image" : "electrical.svg"
+    },
+    {
+        "heading" : "MECHANICAL",
+        "description" : "Understand Intelligence to give back to the society",
+        "image" : "mech.svg"
+    },
+    {
+        "heading" : "CYBER SECURITY",
+        "description" : "Understand Intelligence to give back to the society",
+        "image" : "cyber.svg"
+    },
+    {
+        "heading" : "BLOCKCHAIN",
+        "description" : "Understand Intelligence to give back to the society",
+        "image" : "blockchain.svg"
+    },
+    {
+        "heading" : "UI/UX",
+        "description" : "Understand Intelligence to give back to the society",
+        "image" : "ui.svg"
+    },
+    {
+        "heading" : "UI/UX",
+        "description" : "Understand Intelligence to give back to the society",
+        "image" : "ux.svg"
     }
 ]

@@ -1,0 +1,12 @@
+.box{
+    width:200px!important;
+    padding:0!important;
+    transition: 0.2s;
+    border-radius:1.5rem!important;
+}
+
+.box:hover{
+    scale:1.05;
+    transition: all 0.2s;
+    background-color: #EF652230;
+}
