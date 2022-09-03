@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import 'tw-elements';
 // import router
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 
