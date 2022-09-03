@@ -7,7 +7,6 @@ import project3 from '../../assets/images/Section4/project3.svg';
 import project4 from '../../assets/images/Section4/project4.svg';
 import project5 from '../../assets/images/Section4/project5.svg';
 import project6 from '../../assets/images/Section4/project6.svg';
-
 export default function Section4() {
   console.log(data);
 
@@ -42,7 +41,7 @@ export default function Section4() {
         mt="0"
       />
 
-      <div className="px-2 py-2 mx-auto lg:pt-5 lg:px-20">
+      <div className="px-2 py-2 mx-auto lg:pt-5 lg:px-20 hidden lg:block md:block">
         <div class="flex flex-wrap -m-1 ">
           <div class="flex flex-wrap w-1/3">
             <div class="w-full p-1 md:p-2 m-4">
@@ -99,6 +98,84 @@ export default function Section4() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div
+        id="carouselExampleCrossfade"
+        className="carousel slide carousel-fade relative px-2 py-2 mx-auto lg:pt-5 lg:px-20 lg:hidden md:hidden"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner relative w-72 mx-auto">
+          <div class="carousel-item active float-left w-full">
+            <img src={project1} class="block w-full" alt="project 1" />
+          </div>
+          <div class="carousel-item float-left w-full">
+            <img src={project2} class="block w-full" alt="project 2" />
+          </div>
+          <div class="carousel-item float-left w-full">
+            <img src={project3} class="block w-full" alt="project 3" />
+          </div>
+          <div class="carousel-item float-left w-full">
+            <img src={project4} class="block w-full" alt="project 4" />
+          </div>
+          <div class="carousel-item float-left w-full">
+            <img src={project5} class="block w-full" alt="project 5" />
+          </div>
+          <div class="carousel-item float-left w-full">
+            <img src={project6} class="block w-full" alt="project 6" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-4"
+          type="button"
+          data-bs-target="#carouselExampleCrossfade"
+          data-bs-slide="prev"
+        >
+          <span class="inline-block bg-no-repeat" aria-hidden="true">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                stroke="#F36C25"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75"
+              />
+            </svg>
+          </span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-4"
+          type="button"
+          data-bs-target="#carouselExampleCrossfade"
+          data-bs-slide="next"
+        >
+          <span class="inline-block bg-no-repeat" aria-hidden="true">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                stroke="#F36C25"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+              />
+            </svg>
+          </span>
+
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   );
