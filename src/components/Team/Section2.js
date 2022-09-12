@@ -1,4 +1,4 @@
-import data from "../../data/try.json";
+import data from "../../data/teamdata.json";
 import Card from "./Card";
 import React from "react";
 function groupBy(arr, property) {
@@ -13,7 +13,7 @@ function groupBy(arr, property) {
 
 export default function Section2() {
   const grouped = groupBy(data, "domain");
-  const [current, setCurrent] = React.useState("Web-dev");
+  const [current, setCurrent] = React.useState("Web Development");
   function handle(e) {
     setCurrent(e.target.innerText);
     console.log(grouped[e.target.innerHTML]);
@@ -27,7 +27,7 @@ export default function Section2() {
   return (
     <div className="p-5 mx-auto ">
       <div className=" justify-center gap-x-4 flex flex-row overflow-scroll ">
-        {Object.keys(grouped).map((key) => {
+        {Object.keys(grouped)?.map((key) => {
           return (
             <button
               className={`px-2 py-1 md:px-10 md:py-2 transition text-white rounded min-w-[9rem] ${
@@ -41,7 +41,7 @@ export default function Section2() {
         })}
       </div>
       <div className="flex flex-row justify-center gap-x-3 flex-wrap mx-auto pt-5 lg:gap-x-8 lg:px-9 transition">
-        {grouped[current].map((user) => {
+        {grouped[current]?.map((user) => {
           return <Card user={user}></Card>;
         })}
       </div>
