@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const StyledMenu = styled.nav`
-  overflow: hidden!important;
+  overflow: hidden !important;
   font-family: "Roboto", sans-serif;
-  display: flex;
+  display: ${({ open }) => (open ? "flex" : "none")};
   flex-direction: column;
   justify-content: center;
   background: #ef652220;

@@ -1,7 +1,6 @@
-.menu{
-  overflow-x: hidden!important;
+.menu {
+  overflow-x: hidden !important;
   font-family: "Roboto", sans-serif;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   background: #ef652220;
@@ -17,18 +16,18 @@
   z-index: 100;
 }
 
-.menu a{
-    font-size: 1.4rem;
-    padding: 1rem 0;
-    font-weight: bold;
-    letter-spacing: 0.3rem;
-    color: #222222;
-    text-decoration: none;
-    transition: color 0.4s linear;
+.menu a {
+  font-size: 1.4rem;
+  padding: 1rem 0;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  color: #222222;
+  text-decoration: none;
+  transition: color 0.4s linear;
 
 }
 
-.menu a:hover{
-    color: #ef6522;
+.menu a:hover {
+  color: #ef6522;
 
 }
