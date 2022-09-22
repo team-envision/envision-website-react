@@ -1,10 +1,14 @@
 import React from "react";
-import { StyledMenu } from "./menu.styled";
+// import { StyledMenu } from "./menu.styled";
+import styles from "./menu.module.css";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 const Menu = ({ open,setOpen }) => {
   return (
-    <StyledMenu open={open}>
+    <div open={open} className={styles.menu} style={{
+      transform: `${open ? "translateX(0)" : "translateX(100%)"}`
+      
+    }}>
       <HashLink to="/#" onClick={()=>{setOpen(!open)}}>Home</HashLink>
       <HashLink to="/#about" onClick={()=>{setOpen(!open)}}>About</HashLink>
       <HashLink to="/#divisions" onClick={()=>{setOpen(!open)}}>Division</HashLink>
@@ -16,7 +20,7 @@ const Menu = ({ open,setOpen }) => {
         Team
       </Link>
       <HashLink to="/#footer">Contact</HashLink>
-    </StyledMenu>
+    </div>
   );
 };
 export default Menu;
