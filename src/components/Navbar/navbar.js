@@ -3,6 +3,7 @@ import Burger from "./burger";
 import Menu from "./menu";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { HashLink} from 'react-router-hash-link';
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   // const ref = useRef(null);
@@ -16,9 +17,9 @@ export default function Navbar() {
     console.log(position);
     document.addEventListener("scroll", () => {
       var header = document.querySelector("header");
-      header.classList.toggle("shadow-xl", position > 50);
-      header.classList.toggle("bg-[#ffffff90]", position > 50);
-      header.classList.toggle("backdrop-blur-lg", position > 50);
+      header.classList.toggle("md:shadow-xl", position > 150);
+      header.classList.toggle("md:bg-[#ffffff90]", position > 150);
+      header.classList.toggle("md:backdrop-blur-lg", position > 150);
     });
   };
   useEffect(() => {
@@ -29,43 +30,43 @@ export default function Navbar() {
     };
   }, []);
   return (
-    <header className="flex flex-row justify-between px-7 py-3 overflow-hidden z-20 md:fixed top-0 w-[100vw]">
+    <header className="flex flex-row justify-between px-7 py-3 overflow-hidden overflow-x-hidden z-20 md:fixed top-0 w-[100vw]">
       <div className="">
         <img src={logo} />
       </div>
       <div className="md:block hidden">
         <ul className="flex flex-row justify-between gap-x-10 mt-4 font-[roboto]">
           <li className="flex flex-row">
-            <Link
-              to="/"
+            <HashLink
+              to="/#"
               className="text-gray-600 hover:text-[#ef6522] transition"
             >
               Home
-            </Link>
+            </HashLink>
           </li>
           <li className="flex flex-row">
-            <a
-              href="#"
+            <HashLink
+              to="/#about"
               className="text-gray-600 hover:text-[#ef6522] transition"
             >
               About
-            </a>
+            </HashLink>
           </li>
           <li className="flex flex-row">
-            <a
-              href="#"
+            <HashLink
+              to="/#divisions"
               className="text-gray-600 hover:text-[#ef6522] transition"
             >
               Divisions
-            </a>
+            </HashLink>
           </li>
           <li className="flex flex-row">
-            <a
-              href="#"
+            <HashLink
+              to="/#featured"
               className="text-gray-600 hover:text-[#ef6522] transition"
             >
               Projects
-            </a>
+            </HashLink>
           </li>
           <li className="flex flex-row">
             <Link
@@ -76,12 +77,12 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="flex flex-row">
-            <a
-              href="#"
+            <HashLink
+              to="/#footer"
               className="text-gray-600 hover:text-[#ef6522] transition"
             >
               Contact Us
-            </a>
+            </HashLink>
           </li>
         </ul>
       </div>

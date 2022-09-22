@@ -11,7 +11,7 @@ export default function Section3() {
 
     
     return(
-        <div>
+        <div id="divisions">
         <Heading
           title="What do we do?"
           background="What do we do?"

@@ -11,7 +11,7 @@ export default function Section4() {
   console.log(data);
 
   return (
-    <div>
+    <div id="featured">
       <Heading
         title="Envision in Brief"
         background="Envision in Brief"
@@ -101,7 +101,7 @@ export default function Section4() {
       </div>
 
       <div
-        id="featuredProjectsFade"
+        id="featured"
         className="carousel slide carousel-fade relative px-2 py-2 mx-auto lg:pt-5 lg:px-20 lg:hidden md:hidden"
         data-bs-ride="carousel"
       >

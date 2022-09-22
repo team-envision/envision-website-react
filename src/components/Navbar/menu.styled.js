@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledMenu = styled.nav`
-  overflow: hidden;
+  overflow: hidden!important;
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@ export const StyledMenu = styled.nav`
   transition: transform 0.3s ease-in-out;
   width: 100vw;
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
-  z-index: 10;
+  z-index: 1000;
   a {
     font-size: 1.4rem;
     padding: 1rem 0;

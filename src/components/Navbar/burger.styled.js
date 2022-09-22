@@ -7,13 +7,14 @@ export const StyledBurger = styled.button`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  overflow:hidden;
   width: 2rem;
   height: 2rem;
   background: transparent;
   border: none;
   cursor: pointer;
   padding: 0;
-  z-index: 100;
+  z-index: 1001;
 
   &:focus {
     outline: none;

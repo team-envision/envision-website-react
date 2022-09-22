@@ -10,7 +10,7 @@ import desg from "../../assets/images/Section2/abstract-desg.svg";
 import ellipse from "../../assets/images/Section2/ellipse.svg";
 export default function Section2() {
   return (
-    <div>
+    <div id="about">
       <img src={desg} className="max-w-[80vw] mt-10"></img>
       <img src={ellipse} className="absolute right-0 -z-10 max-w-[30vw]"></img>
       <section>

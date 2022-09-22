@@ -15,7 +15,7 @@ import { HiMail } from "react-icons/hi";
 import aaruush from "../../assets/images/Footer/A22.png";
 export default function Footer() {
   return (
-    <footer className="w-[100vw] bg-white flex flex-col md:flex-row px-4 py-8 font-[roboto] mt-16 bottom-0 ">
+    <footer className="w-[100vw] bg-white flex flex-col md:flex-row px-4 py-8 font-[roboto] mt-16 bottom-0 " id="footer">
       <div className="flex flex-col md:basis-[25%] p-4 justify-around">
         <div>
           <img
