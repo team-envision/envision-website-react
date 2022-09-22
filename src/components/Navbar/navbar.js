@@ -85,7 +85,9 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-      <div className="md:hidden block overflow-hidden">
+      <div className="md:hidden block overflow-hidden"
+        style={{overflowX:'hidden!important'}}
+      >
         <Burger open={open} setOpen={setOpen} />
         <Menu open={open} setOpen={setOpen} />
       </div>

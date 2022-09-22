@@ -42,11 +42,11 @@ export default function Section1() {
         </div> */}
       </Fade>
       <Fade>
-        <div className="flex flex-row flex-wrap min-h-[20vw]">
+        <div className="flex flex-row flex-wrap min-h-[20vw] mt-24 md:mt-0">
           <img src={abstract} className="absolute left-0 w-[12vw] -mt-[5vw]" />
           <img src={abstract2} className="absolute right-0 w-[12vw] mt-[5vw]" />
           <div className="text-center w-[100vw] text-4xl gap-y-2 leading-7">
-            <p className="text-[#EF6522] text-4xl">
+            <p className="text-[#EF6522] text-lg md:text-2xl lg:text-4xl">
               "All computers wait at the same speed."
             </p>
 
