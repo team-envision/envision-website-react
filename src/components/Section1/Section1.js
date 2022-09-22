@@ -20,7 +20,7 @@ export default function Section1() {
             className="w-[94vw] opacity-[0.3] md:top-[37vh] mx-auto md:block hidden"
           ></img>
         </div>
-        <div className="flex flex-col-reverse lg:flex-row justify-between z-20 pt-6">
+        <div className="flex flex-col-reverse lg:flex-row justify-between z-20 pt-6 scroll-y-hidden">
           <img
             src={bgtext}
             className="w-[94vw] opacity-[1] align-center mx-auto md:hidden -mt-[8vh] block absolute ml-[3vw] -z-50"
