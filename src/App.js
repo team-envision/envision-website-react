@@ -7,11 +7,11 @@ import Section5 from "./components/Section5/Section5";
 import Footer from "./components/Footer/footer";
 function App() {
   return (
-    <div className="overflow-x-hidden overflow-y-hidden max-w-[100vw]">
-      <div className="max-w-[100vw] max-h-[100vh] overflow-hidden z-[10000]">
+    <div className="overflow-x-hidden overflow-y-hidden max-w-[100vw] relative">
+      {/* <div className="max-w-[100vw] max-h-[100vh] overflow-hidden z-[10000]"> */}
 
       <Navbar />
-      </div>
+      {/* </div> */}
       <Section1 />
       <Section2 />
       <Section3 />

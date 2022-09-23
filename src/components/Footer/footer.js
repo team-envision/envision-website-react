@@ -15,7 +15,10 @@ import { HiMail } from "react-icons/hi";
 import aaruush from "../../assets/images/Footer/A22.png";
 export default function Footer() {
   return (
-    <footer className="w-[100vw] bg-white flex flex-col md:flex-row px-4 py-8 font-[roboto] mt-16 bottom-0 " id="footer">
+    <footer
+      className="w-[100vw] bg-white flex flex-col md:flex-row px-4 py-8 font-[roboto] mt-16 bottom-0 "
+      id="footer"
+    >
       <div className="flex flex-col md:basis-[25%] p-4 justify-around">
         <div>
           <img
@@ -96,7 +99,16 @@ export default function Footer() {
           <span className="text-2xl basis-[10%] mx-auto my-auto group-hover:text-[#EF6522] transition">
             <BsTelephoneFill />
           </span>
-          <span className=" basis-[90%]">Sahaj Ghatiya</span>
+          <span className=" basis-[90%]">
+            Sahaj Ghatiya - (
+            <a
+              href="tel:+918939398592"
+              className="hover:text-[#EF6522] transition"
+            >
+              +91-8939398502
+            </a>
+            )
+          </span>
         </div>
         <div className="flex flex-col md:flex-row gap-x-2 mt-4 group gap-y-6">
           <span className="text-2xl basis-[10%] mx-auto my-auto group-hover:text-[#EF6522] transition">

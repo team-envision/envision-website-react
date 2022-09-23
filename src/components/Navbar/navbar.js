@@ -3,7 +3,7 @@ import Burger from "./burger";
 import Menu from "./menu";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { HashLink} from 'react-router-hash-link';
+import { HashLink } from "react-router-hash-link";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   // const ref = useRef(null);
@@ -17,9 +17,9 @@ export default function Navbar() {
     console.log(position);
     document.addEventListener("scroll", () => {
       var header = document.querySelector("header");
-      header.classList.toggle("md:shadow-xl", position > 150);
-      header.classList.toggle("md:bg-[#ffffff90]", position > 150);
-      header.classList.toggle("md:backdrop-blur-lg", position > 150);
+      header.classList.toggle("md:shadow-xl", position > 80);
+      header.classList.toggle("md:bg-[#ffffff90]", position > 80);
+      header.classList.toggle("md:backdrop-blur-lg", position > 80);
     });
   };
   useEffect(() => {
@@ -30,7 +30,7 @@ export default function Navbar() {
     };
   }, []);
   return (
-    <header className="flex flex-row justify-between px-7 py-3 overflow-hidden overflow-x-hidden z-20 md:fixed top-0 w-[100vw]">
+    <header className="flex flex-row absolute justify-between px-7 py-3 overflow-hidden overflow-x-hidden md:fixed top-0 left-0 w-[100vw] z-[2000] transition ">
       <div className="">
         <img src={logo} />
       </div>
@@ -86,8 +86,9 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-      <div className="md:hidden block overflow-hidden"
-        style={{overflowX:'hidden!important'}}
+      <div
+        className="md:hidden block overflow-hidden"
+        style={{ overflowX: "hidden!important" }}
       >
         <Burger open={open} setOpen={setOpen} />
         <Menu open={open} setOpen={setOpen} />
