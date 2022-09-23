@@ -27,10 +27,18 @@ export default function Footer() {
             className="w-[30vw] md:mx-0 mx-auto md:w-[15vw]"
           />
           <div className="flex flex-row ml-2 text-2xl gap-x-4 mt-3 justify-center md:justify-start">
-            <a className="hover:text-[#EF6522] hover:cursor-pointer transition">
+            <a
+              className="hover:text-[#EF6522] hover:cursor-pointer transition"
+              href="https://www.linkedin.com/company/team-envision/"
+              target="_blank"
+            >
               <BsLinkedin />
             </a>
-            <a className="hover:text-[#EF6522] hover:cursor-pointer transition">
+            <a
+              className="hover:text-[#EF6522] hover:cursor-pointer transition"
+              href="https://www.instagram.com/teamenvision_srm/"
+              target="_blank"
+            >
               <BsInstagram />
             </a>
           </div>
@@ -42,22 +50,46 @@ export default function Footer() {
             className="w-[35vw] md:mx-0 mx-auto md:w-[18vw] mt-6"
           />
           <div className="flex flex-row ml-2 text-2xl gap-x-4 mt-3 justify-center md:justify-start">
-            <a className="hover:text-[#EF6522] hover:cursor-pointer transition">
+            <a
+              className="hover:text-[#EF6522] hover:cursor-pointer transition"
+              href="https://www.linkedin.com/company/aaruush-srm-ist/"
+              target="_blank"
+            >
               <BsLinkedin />
             </a>
-            <a className="hover:text-[#EF6522] hover:cursor-pointer transition">
+            <a
+              className="hover:text-[#EF6522] hover:cursor-pointer transition"
+              target="_blank"
+              href="https://www.instagram.com/aaruush_srm/"
+            >
               <BsInstagram />
             </a>
-            <a className="hover:text-[#EF6522] hover:cursor-pointer transition">
+            <a
+              className="hover:text-[#EF6522] hover:cursor-pointer transition"
+              target="_blank"
+              href="https://www.facebook.com/aaruush.srm/"
+            >
               <BsFacebook />
             </a>
-            <a className="hover:text-[#EF6522] hover:cursor-pointer transition">
+            <a
+              className="hover:text-[#EF6522] hover:cursor-pointer transition"
+              target="_blank"
+              href="https://twitter.com/aaruushsrmist?lang=en"
+            >
               <BsTwitter />
             </a>
-            <a className="hover:text-[#EF6522] hover:cursor-pointer transition">
+            <a
+              className="hover:text-[#EF6522] hover:cursor-pointer transition"
+              target="_blank"
+              href="https://www.youtube.com/c/AaruushSRMIST"
+            >
               <BsYoutube />
             </a>
-            <a className="hover:text-[#EF6522] hover:cursor-pointer transition">
+            <a
+              className="hover:text-[#EF6522] hover:cursor-pointer transition"
+              target="_blank"
+              href="https://aaruushblog.wordpress.com/"
+            >
               <BsWordpress />
             </a>
           </div>
