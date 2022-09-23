@@ -30,7 +30,7 @@ export default function Section2() {
         {Object.keys(grouped)?.map((key, idx) => {
           return (
             <button
-              className={`px-2 py-1 md:px-10 md:py-2 transition text-white rounded min-w-[9rem] text-center flex justify-center place-items-center align-middle ${
+              className={`px-2 py-1 md:px-10 md:py-2 transition text-white rounded-2xl min-w-[9rem] text-center flex justify-center place-items-center align-middle ${
                 check(key) ? "bg-orange-500" : "bg-orange-300"
               }`}
               onClick={handle}
