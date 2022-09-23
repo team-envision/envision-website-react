@@ -21,6 +21,10 @@ export default function Navbar() {
       header.classList.toggle("md:bg-[#ffffff90]", position > 80);
       header.classList.toggle("md:backdrop-blur-lg", position > 80);
     });
+
+    if (position > 100) {
+      setOpen(false);
+    }
   };
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -30,7 +34,10 @@ export default function Navbar() {
     };
   }, []);
   return (
-    <header className="flex flex-row absolute justify-between px-7 py-3 overflow-hidden overflow-x-hidden md:fixed top-0 left-0 w-[100vw] z-[2000] transition ">
+    <header
+      className="flex flex-row absolute justify-between px-7 py-3 overflow-hidden overflow-x-hidden md:fixed top-0 left-0 w-[100vw] h-max transition "
+      style={{ height: open ? "100vh" : null }}
+    >
       <div className="">
         <img src={logo} />
       </div>

@@ -14,7 +14,7 @@ export default function Section1() {
   return (
     <div>
       <Fade top cascade>
-        <div className="absolute w-[98vw] mx-2 top-[37vh] -z-50">
+        <div className="absolute w-[98vw] mx-2 top-[37vh] -z-50 overflow-hidden">
           <img
             src={bgtext}
             className="w-[94vw] opacity-[0.3] md:top-[37vh] mx-auto md:block hidden"
@@ -39,14 +39,17 @@ export default function Section1() {
             <img src={logo} className="w-[65vw] md:w-[33vw] mx-auto"></img>
           </div>
           <div
-            className="bg-no-repeat md:hidden block"
+            className="bg-no-repeat md:hidden block overflow-hidden"
             style={{
               backgroundImage: `url(${abstract})`,
               backgroundPosition: "50% 50%",
               backgroundSize: "50% 50%",
             }}
           >
-            <img src={logo} className="w-[65vw] lg:w-[33vw] mx-auto"></img>
+            <img
+              src={logo}
+              className="w-[65vw] lg:w-[33vw] mx-auto mt-[5vh]"
+            ></img>
           </div>
         </div>
         <div onClick={slide}>
