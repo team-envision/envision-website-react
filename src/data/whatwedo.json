@@ -1,52 +1,52 @@
 [
-    {
-        "heading" : "AIML",
-        "description" : "Understand Intelligence to give back to the society",
-        "image" : "aiml.svg"
-    },
-    {
-        "heading" : "App Development",
-        "description" : "Understand Intelligence to give back to the society",
-        "image" : "appdev.svg"
-    },
-    {
-        "heading" : "Full Stack Development",
-        "description" : "Understand Intelligence to give back to the society",
-        "image" : "fullstack.svg"
-    },
-    {
-        "heading" : "IOT",
-        "description" : "Understand Intelligence to give back to the society",
-        "image" : "iot.svg"
-    },
-    {
-        "heading" : "ELECTRICAL",
-        "description" : "Understand Intelligence to give back to the society",
-        "image" : "electrical.svg"
-    },
-    {
-        "heading" : "MECHANICAL",
-        "description" : "Understand Intelligence to give back to the society",
-        "image" : "mech.svg"
-    },
-    {
-        "heading" : "CYBER SECURITY",
-        "description" : "Understand Intelligence to give back to the society",
-        "image" : "cyber.svg"
-    },
-    {
-        "heading" : "BLOCKCHAIN",
-        "description" : "Understand Intelligence to give back to the society",
-        "image" : "blockchain.svg"
-    },
-    {
-        "heading" : "UI/UX",
-        "description" : "Understand Intelligence to give back to the society",
-        "image" : "ui.svg"
-    },
-    {
-        "heading" : "UI/UX",
-        "description" : "Understand Intelligence to give back to the society",
-        "image" : "ux.svg"
-    }
+  {
+    "heading": "AIML",
+    "description": "Discovering the path to make machines human",
+    "image": "aiml.svg"
+  },
+  {
+    "heading": "APP DEVELOPMENT",
+    "description": "Making technology accesible at the tip of your hands",
+    "image": "appdev.svg"
+  },
+  {
+    "heading": "WEB DEVELOPMENT",
+    "description": "Making the internet through beautiful sites",
+    "image": "fullstack.svg"
+  },
+  {
+    "heading": "GAME DEVELOPMENT",
+    "description": "Making reel simulations seem real",
+    "image": "iot.svg"
+  },
+  {
+    "heading": "ELECTRICAL",
+    "description": "Understand Intelligence to give back to the society",
+    "image": "electrical.svg"
+  },
+  {
+    "heading": "HARDWARE",
+    "description": "Exploring the world of electricial, mechanical and IoT applications",
+    "image": "mech.svg"
+  },
+  {
+    "heading": "CYBER SECURITY",
+    "description": "Protecting data and securing privacy",
+    "image": "cyber.svg"
+  },
+  {
+    "heading": "BLOCKCHAIN",
+    "description": "Explore the futuristic technology of Blockchain",
+    "image": "blockchain.svg"
+  },
+  {
+    "heading": "DESIGNER",
+    "description": "We design visuals that are imaginary yet real",
+    "image": "ui.svg"
+  },
+  {
+    "heading": "EDITORIAL",
+    "description": "Event Planning and management, handling social content",
+    "image": "ui.svg"
+  }
 ]
