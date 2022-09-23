@@ -91,8 +91,8 @@ export default function Footer() {
             <GoLocation />
           </span>
           <span className=" basis-[90%]">
-            Team Envision Room, PG 303, Main Campus, SRM IST, Kattankulathur,
-            Tamil Nadu 603203
+            Aaruush Room, Main Campus, SRM IST, Kattankulathur, Tamil Nadu
+            603203
           </span>
         </div>
         <div className="flex flex-col md:flex-row gap-x-2 mt-4 group gap-y-6">

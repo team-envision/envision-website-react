@@ -45,12 +45,12 @@ const Menu = ({ open, setOpen }) => {
       >
         Projects
       </HashLink>
-      <Link
+      <HashLink
         to="/team"
         className="text-gray-600 hover:text-[#ef6522] transition"
       >
         Team
-      </Link>
+      </HashLink>
       <HashLink to="/#footer">Contact</HashLink>
     </div>
   );

@@ -35,7 +35,7 @@ export default function Navbar() {
   }, []);
   return (
     <header
-      className="flex flex-row absolute justify-between px-7 py-3 overflow-hidden overflow-x-hidden md:fixed top-0 left-0 w-[100vw] h-max transition "
+      className="flex flex-row absolute justify-between px-7 py-3 overflow-hidden overflow-x-hidden md:fixed top-0 left-0 w-[100vw] z-[1100] h-max transition "
       style={{ height: open ? "100vh" : null }}
     >
       <div className="">
@@ -76,12 +76,12 @@ export default function Navbar() {
             </HashLink>
           </li>
           <li className="flex flex-row">
-            <Link
-              to="/team"
+            <HashLink
+              to="/team/#"
               className="text-gray-600 hover:text-[#ef6522] transition"
             >
               Team
-            </Link>
+            </HashLink>
           </li>
           <li className="flex flex-row">
             <HashLink
