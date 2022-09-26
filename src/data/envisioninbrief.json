@@ -1,23 +1,23 @@
 [
-    {
-        "title" : "Projects",
-        "number" : "15",
-        "image" : "projects.svg"
-    },
-    {
-        "title" : "Hackathons Won",
-        "number" : "10",
-        "image" : "hackwork.svg"
-    },
-    {
-        "title" : "Members",
-        "number" : "20",
-        "image" : "members.svg"
-    },
-    {
-        "title" : "Satisfeid Clients",
-        "number" : "4",
-        "image" : "clients.svg"
-    }
-    
+  {
+    "title": "Projects",
+    "number": "25",
+    "image": "projects.svg"
+  },
+  {
+    "title": "Hackathons Won",
+    "number": "11",
+    "image": "hackwork.svg"
+  },
+  {
+    "title": "Team Strength",
+    "number": "200",
+    "image": "members.svg",
+    "extra": "+"
+  },
+  {
+    "title": "Satisfeid Clients",
+    "number": "4",
+    "image": "clients.svg"
+  }
 ]

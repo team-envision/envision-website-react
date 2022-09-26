@@ -1,7 +1,7 @@
 import glow from "../../assets/images/glow.svg";
 import CountUp from "react-countup";
 import { useEffect, useState } from "react";
-export default function Card({ image, number, title }) {
+export default function Card({ image, number, title, extra }) {
   const img = require("../../assets/images/inbrief/" + image);
   //   console.log(img);
   const [bg, setBg] = useState(true);
@@ -26,6 +26,7 @@ export default function Card({ image, number, title }) {
         ></CountUp>
         {/* {number} */}
       </div>
+      {/* {extra ? extra : null} */}
       {/* <p className="text-center font-black text-xl mt-2 text-[#EF6522]">
         </p> */}
       <p className="text-center mx-[10px]">{title}</p>

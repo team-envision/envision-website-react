@@ -1,12 +1,12 @@
 import Heading from "../heading";
 import Card from "./cards";
 import data from "../../data/envisioninbrief.json";
-import project1 from '../../assets/images/Section4/project1.svg';
-import project2 from '../../assets/images/Section4/project2.svg';
-import project3 from '../../assets/images/Section4/project3.svg';
-import project4 from '../../assets/images/Section4/project4.svg';
-import project5 from '../../assets/images/Section4/project5.svg';
-import project6 from '../../assets/images/Section4/project6.svg';
+import project1 from "../../assets/images/Section4/project1.svg";
+import project2 from "../../assets/images/Section4/project2.svg";
+import project3 from "../../assets/images/Section4/project3.svg";
+import project4 from "../../assets/images/Section4/project4.svg";
+import project5 from "../../assets/images/Section4/project5.svg";
+import project6 from "../../assets/images/Section4/project6.svg";
 export default function Section4() {
   console.log(data);
 
@@ -28,6 +28,7 @@ export default function Section4() {
                 number={data[card].number}
                 title={data[card].title}
                 image={data[card].image}
+                extra={data[card].extra ? data[card].extra : null}
               />
             </div>
           );

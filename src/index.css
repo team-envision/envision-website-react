@@ -77,3 +77,7 @@ code {
   color: transparent;
   font-family: Futura;
 }
+
+img {
+  pointer-events: none;
+}
