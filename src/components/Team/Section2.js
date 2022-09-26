@@ -1,6 +1,7 @@
 import data from "../../data/teamdata.json";
 import Card from "./Card";
 import React from "react";
+import Heading from "../heading";
 function groupBy(arr, property) {
   return arr.reduce(function (memo, x) {
     if (!memo[x[property]]) {
@@ -26,6 +27,7 @@ export default function Section2() {
   console.log(Object.keys(grouped));
   return (
     <div className="p-5 mx-auto ">
+      <Heading title={"Team Heads"} background={"Team Heads"}></Heading>
       <div className=" justify-right gap-x-4 flex flex-row overflow-scroll ">
         {Object.keys(grouped)?.map((key, idx) => {
           return (

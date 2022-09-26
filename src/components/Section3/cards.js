@@ -6,7 +6,7 @@ export default function card({ image, heading, description }) {
 
   return (
     <Tilt className={styles.box}>
-      <div className="bg-[#ffffff10] w-[200px] h-[35vh] hover:cursor-pointer hover:scale-[1.02] hover:shadow-lg transition flex flex-col justify-between py-6 px-2 rounded-3xl group hover:bg-[#EF652230] ">
+      <div className="bg-[#ffffff10] w-[200px] h-[40vh] md:h-[35vh] hover:cursor-pointer hover:scale-[1.02] hover:shadow-lg transition flex flex-col justify-center gap-y-2 px-2 rounded-3xl group hover:bg-[#EF652230] ">
         <div>
           <div className="w-[70px] h-[70px] flex justify-center bg-[#EF6522] mx-auto rounded-full">
             <img src={img} className="rounded-full w-[40px] mx-auto" />

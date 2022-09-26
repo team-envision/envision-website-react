@@ -1,6 +1,8 @@
 import envision from "../../assets/images/Footer/envision.svg";
 import heart from "../../assets/images/Footer/heart.svg";
 import envisionlogo from "../../assets/images/envision.svg";
+import { HashLink } from "react-router-hash-link";
+
 import {
   BsLinkedin,
   BsInstagram,
@@ -97,24 +99,16 @@ export default function Footer() {
       </div>
       <div className="flex flex-col md:basis-[12.5%] text-center md:text-left py-6 gap-y-4">
         <p className="font-bold text-lg">Quick Links</p>
-        <a className="hover:text-[#EF6522] hover:cursor-pointer transition">
-          Home
-        </a>
-        <a className="hover:text-[#EF6522] hover:cursor-pointer transition">
-          About
-        </a>
-        <a className="hover:text-[#EF6522] hover:cursor-pointer transition">
-          Division
-        </a>
-        <a className="hover:text-[#EF6522] hover:cursor-pointer transition">
-          Projects
-        </a>
-        <a className="hover:text-[#EF6522] hover:cursor-pointer transition">
-          Contact Us
-        </a>
-        <a className="hover:text-[#EF6522] hover:cursor-pointer transition">
-          Join Us
-        </a>
+        <HashLink to="/#">Home</HashLink>
+        <HashLink to="/#about">About</HashLink>
+        <HashLink to="/#divisions">Division</HashLink>
+        <HashLink to="/#featured">Projects</HashLink>
+        <HashLink
+          to="/team"
+          className="text-gray-600 hover:text-[#ef6522] transition"
+        >
+          Team
+        </HashLink>
       </div>
       <div className="flex flex-col md:basis-[37.5%] py-6 px-8 gap-y-6 md:gap-y-2 basis-full md:text-left text-center">
         <p className="font-bold text-lg text-center">Office</p>
@@ -132,12 +126,33 @@ export default function Footer() {
             <BsTelephoneFill />
           </span>
           <span className=" basis-[90%]">
-            Sahaj Ghatiya - (
+            Dhanya Sri Aravapalli- (
+            <a
+              href="tel:+918465992222"
+              className="hover:text-[#EF6522] transition"
+            >
+              +91-8465992222
+            </a>
+            )<br /> Rishabh Gupta - (
+            <a
+              href="tel:+917084404041"
+              className="hover:text-[#EF6522] transition"
+            >
+              +91-7084404041
+            </a>
+            )<br /> Sahaj Ghatiya - (
             <a
               href="tel:+918939398592"
               className="hover:text-[#EF6522] transition"
             >
               +91-8939398502
+            </a>
+            )<br /> Sanjukta Sen - (
+            <a
+              href="tel:+918582915740"
+              className="hover:text-[#EF6522] transition"
+            >
+              +91-8582915740
             </a>
             )
           </span>
