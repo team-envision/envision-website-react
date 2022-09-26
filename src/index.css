@@ -23,7 +23,7 @@
 @font-face {
   font-family: 'Futura';
   font-style: normal;
-  src: local('Futura'), url('./assets/fonts/FuturaExtraBold.otf') format('opentype');
+  src: local('Futura'), url('https://teamenvision.s3.ap-south-1.amazonaws.com/fonts/FuturaExtraBold.otf') format('opentype');
 }
 
 
@@ -41,7 +41,7 @@
 
 html {
   background-color: #ebe8e8;
- 
+
 }
 
 /* Change all select color to orange */
@@ -57,8 +57,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 100vw!important;
-  overflow-x: hidden!important;
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
 }
 
 code {

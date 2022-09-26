@@ -27,7 +27,11 @@ export default function Section2() {
   console.log(Object.keys(grouped));
   return (
     <div className="p-5 mx-auto ">
-      <Heading title={"Team Heads"} background={"Team Heads"}></Heading>
+      <Heading
+        title={"Team Heads"}
+        background={"Team Heads"}
+        hide={true}
+      ></Heading>
       <div className=" justify-right gap-x-4 flex flex-row overflow-scroll ">
         {Object.keys(grouped)?.map((key, idx) => {
           return (
