@@ -102,7 +102,7 @@ export default function Section4() {
       </div>
 
       <div
-        id="featured"
+        id="featuredProjectsFade"
         className="carousel slide carousel-fade relative px-2 py-2 mx-auto lg:pt-5 lg:px-20 lg:hidden md:hidden"
         data-bs-ride="carousel"
       >
@@ -127,7 +127,7 @@ export default function Section4() {
           </div>
         </div>
         <button
-          class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-4"
+          class="carousel-control-prev absolute top-0 bottom-0 -left-1 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-4"
           type="button"
           data-bs-target="#featuredProjectsFade"
           data-bs-slide="prev"
@@ -152,7 +152,7 @@ export default function Section4() {
           <span class="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-4"
+          class="carousel-control-next absolute top-0 bottom-0 -right-1 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-4"
           type="button"
           data-bs-target="#featuredProjectsFade"
           data-bs-slide="next"
