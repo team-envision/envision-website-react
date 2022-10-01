@@ -13,25 +13,7 @@ export default function Section5() {
       ></Heading>
 
       <div className="px-2 py-2 mx-auto lg:pt-5 lg:px-20 hidden lg:block md:block">
-        <div class="flex flex-wrap -m-1  justify-between">
-          <div class="flex">
-            <div class="w-full p-1 md:p-2 m-4">
-              <img
-                alt="gallery"
-                class="block object-cover object-center w-full h-full"
-                src={collaboration1}
-              ></img>
-            </div>
-          </div>
-          <div class="flex">
-            <div class="w-full p-1 md:p-2 m-4">
-              <img
-                alt="gallery"
-                class="block object-cover object-center w-full h-full"
-                src={collaboration1}
-              ></img>
-            </div>
-          </div>
+        <div class="flex flex-wrap -m-1  justify-around">
           <div class="flex">
             <div class="w-full p-1 md:p-2 m-4">
               <img
@@ -64,12 +46,6 @@ export default function Section5() {
           </div>
           <div class="carousel-item float-left w-full">
             <img src={collaboration2} class="block w-full" alt="project 2" />
-          </div>
-          <div class="carousel-item float-left w-full">
-            <img src={collaboration1} class="block w-full" alt="project 3" />
-          </div>
-          <div class="carousel-item float-left w-full">
-            <img src={collaboration2} class="block w-full" alt="project 4" />
           </div>
         </div>
         <button
