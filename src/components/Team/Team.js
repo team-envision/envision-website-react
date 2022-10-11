@@ -4,6 +4,8 @@ import Section1 from "./Section1";
 import Card from "./Card";
 import Section2 from "./Section2";
 import Organizers from "./Organizers";
+import ExOrganizers from "./Previous";
+
 export default function Team() {
   return (
     <div className="min-h-[100vh] overflow-hidden">
@@ -13,6 +15,8 @@ export default function Team() {
       </div>
       <Organizers></Organizers>
       <Section2></Section2>
+      <ExOrganizers></ExOrganizers>
+
       <Footer />
     </div>
   );
