@@ -9,13 +9,28 @@ export default function Heading({ title, description, background, mt, hide }) {
         className={`font-[futura] text-[#EF6522] inherit text-[6vw] md:text-[2vw] mt-${mt}`}
       >
         {title}
-        <div
-          className={`outline text-[7vw] md:text-[4vw] select-none absolute -mt-[12vw] md:-mt-[5vw] -z-10 ${
-            hide ? "md:-translate-x-24" : ""
-          }`}
-        >
-          {background}
-        </div>
+        {background != "Patrons" ? (
+          <>
+            <div
+              className={`outline text-[7vw] md:text-[4vw] select-none absolute -mt-[12vw] md:-mt-[5vw] -z-10 ${
+                hide ? "md:-translate-x-24" : ""
+              }`}
+            >
+              {background}
+            </div>
+          </>
+        ) : (
+          <>
+            {" "}
+            <div
+              className={`outline text-[7vw] md:text-[4vw] select-none absolute -mt-[12vw] md:-mt-[5vw] -z-10 md:ml-7 ${
+                hide ? "md:-translate-x-24" : ""
+              }`}
+            >
+              {background}
+            </div>
+          </>
+        )}
       </div>
 
       <div
