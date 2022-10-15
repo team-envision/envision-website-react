@@ -13,5 +13,38 @@
     "domain": "Organizer - A '21",
     "linkedin": "https://www.linkedin.com/in/mettina-varghese-374755181/",
     "github": "https://github.com/MetinaVarghese"
+  },
+  {
+    "name": "Vamsi Krishna Varigonda",
+    "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/misc/vamsi--667d76c8.webp",
+    "domain": "Organizer"
+  },
+  {
+    "name": "Ishan Chhabra",
+    "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/misc/ishan-356444ff.webp",
+    "domain": "Organizer - A '20",
+    "linkedin": "https://www.linkedin.com/in/ishan-chhabra/",
+    "github": "https://github.com/ishan-chhabrae"
+  },
+  {
+    "name": "Tejan Singh",
+    "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/misc/tejan-7d416d18.webp",
+    "domain": "Organizer - A '20",
+    "linkedin": "https://www.linkedin.com/in/tejansarna/",
+    "github": "https://github.com/TejanSarna"
+  },
+  {
+    "name": "Prudhvi K",
+    "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/misc/prudhvi--efaa0c39.webp",
+    "domain": "Organizer - A '20",
+    "linkedin": "https://www.linkedin.com/in/prudhvi-kondapalli-813309161/"
+  },
+  {
+    "name": "Shubhayan Saha",
+    "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/misc/shubhayan--7ed5f3ac.webp",
+    "domain": "Organizer - A '20",
+    "linkedin": "https://www.linkedin.com/in/shubhayan-saha-986448150/",
+    "github": "https://github.com/ShubhayanS"
   }
+
 ]
