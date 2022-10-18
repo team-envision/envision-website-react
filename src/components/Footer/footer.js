@@ -46,11 +46,13 @@ export default function Footer() {
           </div>
         </div>
         <div>
-          <img
-            src={aaruush}
-            alt="aaruush"
-            className="w-[35vw] md:mx-0 mx-auto md:w-[18vw] mt-6"
-          />
+          <a href="https://aaruush.org" target="_blank">
+            <img
+              src={aaruush}
+              alt="aaruush"
+              className="w-[35vw] md:mx-0 mx-auto md:w-[18vw] mt-6"
+            />
+          </a>
           <div className="flex flex-row ml-2 text-2xl gap-x-4 mt-3 justify-center md:justify-start">
             <a
               className="hover:text-[#EF6522] hover:cursor-pointer transition"
@@ -117,7 +119,7 @@ export default function Footer() {
             <GoLocation />
           </span>
           <span className=" basis-[90%]">
-            Aaruush Room, Main Campus, SRM IST, Kattankulathur, Tamil Nadu
+            The Aaruush Room, Main Campus, SRM IST, Kattankulathur, Tamil Nadu
             603203
           </span>
         </div>
