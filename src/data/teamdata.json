@@ -179,15 +179,7 @@
     "instagram": "https://www.instagram.com/unique_niki",
     "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/Nikhil_Taparia_Photo__2_-removebg-preview (1).webp"
   },
-  {
-    "email": "nt8770@srmist.edu.in",
-    "name": "Nikhil Taparia",
-    "domain": "Web Development",
-    "linkedin": "https://www.linkedin.com/in/nikhil-taparia/",
-    "github": "https://github.com/taparia11",
-    "instagram": "https://www.instagram.com/unique_niki",
-    "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/Nikhil_Taparia_Photo__2_-removebg-preview (1).webp"
-  },
+
   {
     "email": "as6164@srmist.edu.in",
     "name": "Ayush Sharma",
@@ -595,5 +587,14 @@
     "github": "https://github.com/gitBhanuPratap",
     "instagram": "https://www.instagram.com/_dead.lifts_",
     "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/BhanuPratapSingh-removebg-preview (1).webp"
+  },
+  {
+    "email": "nt8770@srmist.edu.in",
+    "name": "Nikhil Taparia",
+    "domain": "Web Development",
+    "linkedin": "https://www.linkedin.com/in/nikhil-taparia/",
+    "github": "https://github.com/taparia11",
+    "instagram": "https://www.instagram.com/unique_niki",
+    "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/Nikhil_Taparia_Photo__2_-removebg-preview (1).webp"
   }
 ]
