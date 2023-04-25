@@ -128,33 +128,41 @@ export default function Footer() {
             <BsTelephoneFill />
           </span>
           <span className=" basis-[90%]">
-            Dhanya Sri Aravapalli- (
+            Akash Gupta- (
             <a
-              href="tel:+918465992222"
+              href="tel:+918777017807"
               className="hover:text-[#EF6522] transition"
             >
-              +91-8465992222
+              +91-8777017807
             </a>
-            )<br /> Rishabh Gupta - (
+            )<br /> Ayush Sharma - (
             <a
-              href="tel:+917084404041"
+              href="tel:+919792120998"
               className="hover:text-[#EF6522] transition"
             >
-              +91-7084404041
+              +91-9792120998
             </a>
-            )<br /> Sahaj Ghatiya - (
+            )<br /> Dhaivat Vipat - (
             <a
-              href="tel:+918939398592"
+              href="tel:+916265052301"
               className="hover:text-[#EF6522] transition"
             >
-              +91-8939398502
+              +91-6265052301
             </a>
-            )<br /> Sanjukta Sen - (
+            )<br /> Ravi R. - (
             <a
-              href="tel:+918582915740"
+              href="tel:+916235942397"
               className="hover:text-[#EF6522] transition"
             >
-              +91-8582915740
+              +91-6235942397
+            </a>
+            )
+            <br /> Rishit Shivesh - (
+            <a
+              href="tel:+919667516345"
+              className="hover:text-[#EF6522] transition"
+            >
+              +91-9667516345
             </a>
             )
           </span>
