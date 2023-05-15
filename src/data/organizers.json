@@ -1,37 +1,52 @@
 [
   {
-    "name": "Dhanya Sri Aravapalli",
-    "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/organizers/dhanya-95d875b7.png",
-    "domain": "Organizer",
-    "email": "adhanya2611@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/dhanyasriaravapalli/",
-    "github": "https://github.com/Dhanya-26",
-    "instagram": "https://www.instagram.com/d.h.a.n.y.a/"
+    "email": "ag3194@srmist.edu.in",
+    "name": "Akash Gupta",
+    "domain": "Organiser - A'23",
+    "linkedin": "https://www.linkedin.com/in/akax",
+    "github": "https://github.com/Akaxgt",
+    "instagram": "www.instagram.com/akash._.gupta",
+    "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/Akash_Gupta-removebg-preview (1).webp"
   },
   {
-    "name": "Rishabh Gupta",
-    "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/organizers/rishabh-a7dfc694.png",
-    "domain": "Organizer",
-    "email": " rs.rishabhgupta2001@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/rishabhgupta3105",
-    "instagram": "https://instagram.com/dark.soul_31"
+    "email": "as6164@srmist.edu.in",
+    "name": "Ayush Sharma",
+    "domain": "Organiser - A'23",
+
+    "linkedin": "https://www.linkedin.com/in/ayush-sharma-3b32901b8/",
+    "github": "https://github.com/ayushsha1254",
+    "instagram": "https://www.instagram.com/ayush12.dng/",
+    "others": "https://www.behance.net/ayushsharma40",
+    "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/ayush.webp"
   },
   {
-    "name": "Sahaj Ghatiya",
-    "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/organizers/sahaj-c27851b2.png",
-    "instagram": "https://www.instagram.com/sahaj_ghaatiya/",
-    "domain": "Organizer",
-    "email": "sahajghatiya531.sg@gmail.com",
-    "github": "https://github.com/sahaj169",
-    "linkedin": "https://www.linkedin.com/in/sahaj-ghatiya169/"
+    "email": "dv9148@srmist.edu.in",
+    "name": "Dhaivat Vipat",
+    "domain": "Organiser - A'23",
+
+    "linkedin": "https://www.linkedin.com/in/dhaivat-vipat",
+    "github": "https://github.com/DhaivatV",
+    "instagram": "https://www.instagram.com/dhaivatv.07",
+    "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/Dhaivat_Vipat-removebg-preview (1).webp"
   },
   {
-    "name": "Sanjukta Sen",
-    "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/organizers/sanjukta-055e3699.png",
-    "domain": "Organizer",
-    "email": "ss5984@srmist.edu.in",
-    "linkedin": "https://www.linkedin.com/in/sanjukta-sen-092b1419b",
-    "instagram": "https://instagram.com/sanjukta_30?igshid=bhzo1o1ft4b9",
-    "github": "https://github.com/Sanjukta382 "
+    "email": "rr2483@srmist.edu.in",
+    "name": "Ravi R",
+    "domain": "Organiser - A'23",
+
+    "linkedin": "https://www.linkedin.com/in/ravi-r-9867101b7",
+    "instagram": "https://www.instagram.com/the_ravi_rajeev",
+    "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/Ravi_R-removebg-preview (1).webp"
+  },
+  {
+    "email": "rishitshivesh@gmail.com",
+    "name": "Rishit Shivesh ",
+    "domain": "Organiser - A'23",
+
+    "linkedin": "https://www.linkedin.com/in/rishitshivesh",
+    "github": "https://www.github.com/rishitshivesh",
+    "instagram": "https://www.instagram.com/mysongs.space",
+    "others": "https://portfolio.rishitshivesh.co.in",
+    "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/rishit.webp"
   }
 ]

@@ -16,7 +16,7 @@ export default function Team() {
       <Patrons />
       <Organizers></Organizers>
       <ExOrganizers></ExOrganizers>
-      <Section2></Section2>
+      {/* <Section2></Section2> */}
 
       <Footer />
     </div>

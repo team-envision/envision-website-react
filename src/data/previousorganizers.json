@@ -1,8 +1,43 @@
 [
   {
+    "name": "Dhanya Sri Aravapalli",
+    "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/organizers/dhanya-95d875b7.png",
+    "domain": "Organiser - A '22",
+    "email": "adhanya2611@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/dhanyasriaravapalli/",
+    "github": "https://github.com/Dhanya-26",
+    "instagram": "https://www.instagram.com/d.h.a.n.y.a/"
+  },
+  {
+    "name": "Rishabh Gupta",
+    "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/organizers/rishabh-a7dfc694.png",
+    "domain": "Organiser - A '22",
+    "email": " rs.rishabhgupta2001@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/rishabhgupta3105",
+    "instagram": "https://instagram.com/dark.soul_31"
+  },
+  {
+    "name": "Sahaj Ghatiya",
+    "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/organizers/sahaj-c27851b2.png",
+    "instagram": "https://www.instagram.com/sahaj_ghaatiya/",
+    "domain": "Organiser - A '22",
+    "email": "sahajghatiya531.sg@gmail.com",
+    "github": "https://github.com/sahaj169",
+    "linkedin": "https://www.linkedin.com/in/sahaj-ghatiya169/"
+  },
+  {
+    "name": "Sanjukta Sen",
+    "image": "https://teamenvision.s3.ap-south-1.amazonaws.com/organizers/sanjukta-055e3699.png",
+    "domain": "Organiser - A '22",
+    "email": "ss5984@srmist.edu.in",
+    "linkedin": "https://www.linkedin.com/in/sanjukta-sen-092b1419b",
+    "instagram": "https://instagram.com/sanjukta_30?igshid=bhzo1o1ft4b9",
+    "github": "https://github.com/Sanjukta382 "
+  },
+  {
     "name": "Arko Chatterjee",
     "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/misc/arko-f434b8b6.webp",
-    "domain": "Organizer - A '19",
+    "domain": "Organiser - A '19",
     "email": "arkochatterjee@gmail.com",
     "linkedin": "https://www.linkedin.com/in/arko-chatterjee/",
     "github": "http://github.com/arkochatterjee"
@@ -10,41 +45,40 @@
   {
     "name": "Mettina Varghese",
     "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/misc/mettina-9df9aead.webp",
-    "domain": "Organizer - A '21",
+    "domain": "Organiser - A '21",
     "linkedin": "https://www.linkedin.com/in/mettina-varghese-374755181/",
     "github": "https://github.com/MetinaVarghese"
   },
   {
     "name": "Vamsi Krishna Varigonda",
     "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/misc/vamsi--667d76c8.webp",
-    "domain": "Organizer"
+    "domain": "Organiser"
   },
   {
     "name": "Ishan Chhabra",
     "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/misc/ishan-356444ff.webp",
-    "domain": "Organizer - A '20",
+    "domain": "Organiser - A '20",
     "linkedin": "https://www.linkedin.com/in/ishan-chhabra/",
     "github": "https://github.com/ishan-chhabrae"
   },
   {
     "name": "Tejan Singh",
     "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/misc/tejan-7d416d18.webp",
-    "domain": "Organizer - A '20",
+    "domain": "Organiser - A '20",
     "linkedin": "https://www.linkedin.com/in/tejansarna/",
     "github": "https://github.com/TejanSarna"
   },
   {
     "name": "Prudhvi K",
     "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/misc/prudhvi--efaa0c39.webp",
-    "domain": "Organizer - A '20",
+    "domain": "Organiser - A '20",
     "linkedin": "https://www.linkedin.com/in/prudhvi-kondapalli-813309161/"
   },
   {
     "name": "Shubhayan Saha",
     "image": "https://aaruush22-bucket.s3.ap-south-1.amazonaws.com/misc/shubhayan--7ed5f3ac.webp",
-    "domain": "Organizer - A '20",
+    "domain": "Organiser - A '20",
     "linkedin": "https://www.linkedin.com/in/shubhayan-saha-986448150/",
     "github": "https://github.com/ShubhayanS"
   }
-
 ]
