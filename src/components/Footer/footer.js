@@ -1,6 +1,6 @@
-import envision from "../../assets/images/Footer/envision.svg";
+import envision from "../../assets/images/envisiondeveloped.png";
 import heart from "../../assets/images/Footer/heart.svg";
-import envisionlogo from "../../assets/images/envisiondeveloped.png";
+import envisionlogo from "../../assets/images/envision.svg";
 import { HashLink } from "react-router-hash-link";
 
 import {
